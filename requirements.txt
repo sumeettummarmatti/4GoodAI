@@ -7,13 +7,14 @@ opencv-python
 Pillow
 
 # Data & utils
+
 numpy
-pandas
 scikit-learn
 matplotlib
 seaborn
 tqdm
-pyyaml
+requests
+grad-cam
 
 # Demo / UI
 gradio
