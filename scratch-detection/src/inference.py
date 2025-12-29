@@ -81,8 +81,9 @@ class ScratchDetectorInference:
         return result
 
     def get_grad_cam(self, tensor, target_class):
-        # Target the last block of the backbone
-        target_layers = [self.model.backbone.blocks[-1]]
+        # Change from .blocks[-1] to .layer4[-1] for ResNet architectures
+        target_layers = [self.model.backbone.layer4[-1]] 
+        
         cam = GradCAM(model=self.model, target_layers=target_layers)
         grayscale_cam = cam(input_tensor=tensor, targets=None)
         return grayscale_cam[0, :]
