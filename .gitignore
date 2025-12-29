@@ -1,6 +1,6 @@
 # datasets
-scratch-detection/data/
-scratch-detection/models/
+# scratch-detection/data/
+# scratch-detection/models/
 
 # virtual env
 venv/
