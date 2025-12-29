@@ -1,0 +1,12 @@
+{
+  "accuracy": 0.9962962962962963,
+  "num_classes": 6,
+  "class_names": [
+    "crazing",
+    "inclusion",
+    "patches",
+    "pitted",
+    "rolled-in_scale",
+    "scratches"
+  ]
+}
