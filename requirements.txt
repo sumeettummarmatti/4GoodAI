@@ -1,0 +1,19 @@
+# PyTorch is installed via conda (DO NOT put torch here)
+
+# ML / CV
+timm
+albumentations
+opencv-python
+Pillow
+
+# Data & utils
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+tqdm
+pyyaml
+
+# Demo / UI
+gradio
